@@ -60,7 +60,7 @@ function updateCharacterCount(inputId, counterId, maxLength) {
         const remaining = maxLength - length;
         counter.text(`${remaining}文字残り`);
     
-        if (length > maxLength) {
+        if (remaining < 0) {
             counter.addClass('error');
         } else {
             counter.removeClass('error');
