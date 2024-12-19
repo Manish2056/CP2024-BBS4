@@ -149,6 +149,11 @@ textarea.form-control {
     background-color: #c82333;
 }
 
+#postButton{
+    background-color: #4CAF50;
+}
+
+
 /* 投稿一覧 */
 .posts-container {
     margin-top: 30px;
